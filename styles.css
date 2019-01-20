@@ -40,7 +40,18 @@ main.container {
     align-items: center;
     justify-content: center;
 }
+#profile {
+	margin: auto;
+	background-image: url("profile.jpg");
+	width: 350px;
+	height: 350px;
+	background-size: cover;
+	background-position: top center;
+	border-radius: 50%;
+	box-shadow: 0px 6px 7px 1px #ccc;
+}
 main.container section.content h1 {
+	margin-top: 1.75rem;
 	color: #21211f;
 	font-size: 7.35rem;
 	padding: 0;
@@ -117,6 +128,10 @@ footer span:hover {
 @media all and (max-width: 600px) {
 	html, body {
 		font-size: 9px;
+	}
+	#profile {
+		width: 200px;
+		height: 200px;
 	}
 	main.container section.content a {
 		padding: 1.45rem 1.5rem;
