@@ -43,8 +43,8 @@ main.container {
 #profile {
 	margin: auto;
 	background-image: url("profile.jpg");
-	width: 350px;
-	height: 350px;
+	width: 250px;
+	height: 250px;
 	background-size: cover;
 	background-position: top center;
 	border-radius: 50%;
